@@ -1,0 +1,8 @@
+name: Pond Manager
+version: '${project.version}'
+main: me.harvestminer.pondmanager.PondManager
+api-version: '1.20'
+prefix: PM
+authors: [Harvestmienr]
+description: A Manager for The Pond SMP
+website: https://github.com/Harvestminer/PondManager
