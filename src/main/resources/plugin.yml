@@ -1,4 +1,4 @@
-name: Pond Manager
+name: PondManager
 version: '${project.version}'
 main: me.harvestminer.pondmanager.PondManager
 api-version: '1.20'
@@ -6,3 +6,21 @@ prefix: PM
 authors: [Harvestmienr]
 description: A Manager for The Pond SMP
 website: https://github.com/Harvestminer/PondManager
+
+commands:
+  setmarket:
+    description: Set market at location
+    usage: /setmarket
+    permission: PondManager.setWarp
+  market:
+    description: Teleport to market
+    usage: /market
+    permission: PondManager.warp
+  setgames:
+    description: Set games at location
+    usage: /setgames
+    permission: PondManager.setWarp
+  games:
+    description: Teleport to games
+    usage: /games
+    permission: PondManager.warp
